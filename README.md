@@ -15,7 +15,40 @@ The data comes from [MovieLens](https://grouplens.org/datasets/movielens/latest/
 
 Superusers were a significant limiting factor when it came to our initial data analysis because some of them accounted for a significant amount of reviews per user. See below:
 
+![2](./images/SuperuserHighlight.png)
 Here we see that most users rated at most 250 movies, whereas a subset of superusers have rated anywhere between 1750 to 2750 movies per superuser.
 
 ## Data Analysis
+
+Some general insights:
+
+![3](./images/MRPY.png)
+
+We find that a majority of movie ratings given in this dataset were to movies between the 1980s to the early 2000s.
+
+![4](./images/Top5GenreRDistr.png)
+
+Ratings for each of the top 5 movie genres are slightly skewed, revealing the median rating to be somewhere between 3.5 and 4 for every of the listed genres. 
+
+![5](./images/Top20RMovies.png)
+
+However, some movies will be more popular than others, regardless of genre. Here we identify the top 20 most rated movies in the dataset.
+
+## Modelling Process
+
+The predictive model that serve as the basis of our recommendation system accounts for new users/soon-to-be existing and already-existing users as well. More specifically:
+
+* To address the "cold start problem", we tested the Pearson Correlation Coefficient
+* To address new users with minimal movie-rating information, we tested a KNNBasic model as well as an SVD model
+
+## Conclusions
+
+Based on MAE scores (regression metric) received from the aforementioned models, we commit to the SVD model as our final model. Further business recommendations are:
+* Change UI to have movie recommendations near the top of the homepage.
+* Include feedback survery icons to ultimately gain insight on the performance of the movie recommendations
+* Include cast information to diversify future movie recommendations
+
+## Future Insights
+
+Going forward, it is in our best interest to investigate the potential effects of using different devices to interact with the platform.
 
