@@ -50,7 +50,7 @@ Based on MAE scores (regression metric) received from the aforementioned models,
 
 Going forward, it is in our best interest to investigate the potential effects of using different devices to interact with the platform.
 
-Please refer to the [Jupyter notebook](./index_final.ipynb) for additional EDAs and models.
+Please refer to the [Jupyter notebook](./index_final.ipynb) for additional EDAs and models, and the [presentation deck](./presentation.pdf) for the final run down of our findings.
 
 If you have any questions, please contact our team:
 
