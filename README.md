@@ -58,3 +58,14 @@ Simon Hui (GitHub/Presentation Lead): simonh9963@gmail.com
 
 Sangyun (Yun) Thom (Technical Lead): sangyun.thom@gmail.com
 
+## Repository Structure
+
+```
+├── images
+├── .gitignore
+├── README.md
+├── index_final.ipynb
+├── movies.csv
+├── presentation.pdf
+└── ratings.csv
+```
