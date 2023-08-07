@@ -41,14 +41,20 @@ The predictive model that serve as the basis of our recommendation system accoun
 * To address the "cold start problem", we tested the Pearson Correlation Coefficient
 * To address new users with minimal movie-rating information, we tested a KNNBasic model as well as an SVD model
 
-## Conclusions
+## Conclusions and Future Insights
 
 Based on MAE scores (regression metric) received from the aforementioned models, we commit to the SVD model as our final model. Further business recommendations are:
 * Change UI to have movie recommendations near the top of the homepage.
 * Include feedback survery icons to ultimately gain insight on the performance of the movie recommendations
 * Include cast information to diversify future movie recommendations
 
-## Future Insights
-
 Going forward, it is in our best interest to investigate the potential effects of using different devices to interact with the platform.
+
+Please refer to the [Jupyter notebook](./index_final.ipynb) for additional EDAs and models.
+
+If you have any questions, please contact our team:
+
+Simon Hui (GitHub/Presentation Lead): simonh9963@gmail.com
+
+Sangyun (Yun) Thom (Technical Lead): sangyun.thom@gmail.com
 
